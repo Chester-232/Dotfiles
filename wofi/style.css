@@ -1,0 +1,56 @@
+@import '/home/chester/.config/wofi/colors.css';
+
+* {
+    font-family: "Hack", monospace;
+}
+
+window {
+    background-color: @crust;
+    opacity: 0.85;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid @lavender;
+    background-color: @mantle;
+}
+
+#inner-box {
+    background-color: @mantle;
+    
+}
+
+#outer-box {
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: @base;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    padding: 4px;
+    color: @text;
+}
+
+#entry:nth-child(even){
+    background-color: @crust;
+}
+
+#entry {
+    border-radius: 15px;
+}
+
+#entry:selected {
+    background-color: #4C566A;
+    border-radius: 15px;
+}
+
+#text:selected {
+    background: transparent;
+}
